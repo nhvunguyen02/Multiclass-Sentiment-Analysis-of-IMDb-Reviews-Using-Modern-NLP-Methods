@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.zip
+*.rar
+*.7z
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+models/
+checkpoints/
+spacy_textcat_multiclass/
+spacy_cnn_multiclass/
+
+# App cache / logs
+*.log
+.cache/
+gradio_cached_examples/
+
+# Secrets
+.env
+config.json
+secrets.json
